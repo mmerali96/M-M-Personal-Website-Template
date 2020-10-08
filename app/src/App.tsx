@@ -1,5 +1,5 @@
 import React from "react";
-import { Route, Switch, Router } from "react-router-dom";
+import { Route, Switch, HashRouter } from "react-router-dom";
 import { history } from "./components/history";
 import LandingPage from "./content/LandingPage/LandingPage";
 import ProjectPage from "./content/ProjectPage/ProjectPage";
@@ -22,7 +22,7 @@ function App() {
         twitterURL={config.twitter}
       />
       <div className="app-content">
-        <Router history={history}>
+        <HashRouter basename='/'>
           <Switch>
             <Route exact path="/">
               <LandingPage
@@ -43,7 +43,7 @@ function App() {
               <ProjectPage projects={config.projects}></ProjectPage>
             </Route>
           </Switch>
-        </Router>
+        </HashRouter>
       </div>
     </div>
   );
