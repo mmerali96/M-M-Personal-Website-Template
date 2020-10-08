@@ -1,9 +1,6 @@
-.personal-site-header {
-  background-color: black;
-}
-
 .MuiAppBar-colorPrimary {
   background-color: black !important;
+  opacity: .8;
 }
 
 .header-button-group-right {

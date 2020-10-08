@@ -24,7 +24,7 @@ class Header extends React.Component<IHeaderProps, IHeaderState> {
   render() {
     const name = this.props.FirstName + " " + this.props.LastName;
     return (
-      <div className="personal-site-header">
+      <div>
         <AppBar position="fixed" color="primary">
           <Toolbar>
             <div className="header-button-group-left">

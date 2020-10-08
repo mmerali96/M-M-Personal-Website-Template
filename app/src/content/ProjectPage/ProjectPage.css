@@ -1,4 +1,5 @@
 .project-page {
+  margin-top: -20px;
 }
 
 .project-header {
@@ -8,6 +9,7 @@
 }
 
 .project-grid {
+  padding-top: 50px;
   align-content: center;
   justify-content: center;
   display: flex;

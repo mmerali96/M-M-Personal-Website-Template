@@ -58,7 +58,7 @@ class ProjectPage extends React.Component<
 
     return (
       <div className="project-page">
-        <h1 className="project-header">Project Page</h1>
+        <h1 className="project-header"></h1>
         <Grid className="project-grid" container spacing={1}>
           {rows}
         </Grid>
