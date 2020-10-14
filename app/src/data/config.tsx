@@ -6,7 +6,11 @@ export const config = {
   twitter: "",
   profile_picture: "https://media-exp1.licdn.com/dms/image/C4D03AQFkIiRlOhdTwA/profile-displayphoto-shrink_400_400/0?e=1603929600&v=beta&t=mSP8AUNhByVZmDPTB__6fz7CjSZRYl3QZQb3X0F_bMA",
   location: "New York, NY",
-  bio: "I have been a software developer professionally since 2018. Before that, I attended Binghamton University where I earned my B.S. in Computer Science. I am strongest in Java and Javascript. Outside of work, I enjoy biking, snowboarding, and watching Netflix docu-series.",
+  bio: `Having grown up always tinkering with technology and figuring out what makes things work,
+   I decided to start my career in technology. I graduated from Binghamton University in
+    Upstate New York with my bachelor's degree in Computer Science. I focus on writing clear
+     code and meticulously testing my code. I love to build new applications and learn new
+      development tools and techniques.`,
   phone: "(516) 203-6130",
   email: "mmerali1@binghamton.edu",
   current_role: "Software Developer @ IBM",
@@ -71,22 +75,27 @@ export const config = {
       id: 4,
       title: "Semantic Search Application",
       image: "https://i.imgur.com/dODFHX3.jpg",
-      description: "TODO",
+      description: `
+      <p>Created a prototype tool for UNDP policy analysts to be able to conduct Rapid Integrated Assessment (RIA) faster.
+      This is typically a manual process that takes about 3-4 weeks. IBM Research created an algorithm that could semantically match 
+      sections of documents to specified targets.</p>
+      <p>Our team created a native React desktop application that enabled anyone to use the semantic search algorithm. 
+      The tool took in 3 different file inputs: policy documents, UNDP SDG targets, and a list of exclusions. Then, it 
+      drove the python algorithm and opened the results in a spreadsheet.</p>
+      <p>Tools used: React, Material, Node.js, Python</p>
+      `,
       organization: "IBM",
     },
     {
       id: 5,
       title: "IHS PKCS11 Security Driver",
       image: "https://i.imgur.com/eKcJ1AV.jpg",
-      description: "TODO",
+      description: `<p>
+        Implemented a security driver for IBM HTTPS Server for z/OS. The driver encrypts and decrypts
+        the session storage so that the server could allow for form-based authentication. Driver was 
+        PCKS11 compliant and used an ICSF API, a z/OS cryptographic interface.
+      </p>`,
       organization: "IBM",
     },
-    {
-      id: 6,
-      title: "School Projects",
-      image: "https://i.imgur.com/kk9c4bj.png",
-      description: "TODO",
-      organization: "Binghamton University",
-    }
   ],
 };
